@@ -1,0 +1,27 @@
+From 4399c16f0dce79b668cbcbbb7317d3a1ebff1469 Mon Sep 17 00:00:00 2001
+From: tomalex389 <tomalex389@gmail.com>
+Date: Wed, 15 Mar 2023 00:06:11 -0400
+Subject: [PATCH] Update DataManipulator.ts
+
+---
+ src/DataManipulator.ts | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/DataManipulator.ts b/src/DataManipulator.ts
+index 551898c..44a0f13 100644
+--- a/src/DataManipulator.ts
++++ b/src/DataManipulator.ts
+@@ -16,8 +16,8 @@ import { ServerRespond } from './DataStreamer';
+       const priceABC = (serverRespond[0].top_ask.price + serverRespond[0].top_bid.price) / 2;
+       const priceDEF = (serverRespond[1].top_ask.price + serverRespond[1].top_bid.price) / 2;
+       const ratio = priceABC / priceDEF;
+-      const upperBound = 1 + 0.05;
+-      const lowerBound = 1 - 0.05;
++      const upperBound = 1 + 0.04;
++      const lowerBound = 1 - 0.04;
+       return {
+           price_abc: priceABC,
+           price_def: priceDEF,
+-- 
+2.39.2.windows.1
+
