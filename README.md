@@ -1,4 +1,5 @@
 # JPMC Task 3
+
 **How Developed Graph:**
 
 As in Task 2, two stocks are displayed and their pricing over time is displayed with one caveat; tracking the 12 month historical average ratio between stock ABC and DEF instead of the top\_ask\_price. In order to help determine a trading opportunity, differing upper and lower bounds are tested to demonstrate aggressive vs conservative alerting behavior via a trigger alert. We also implement a timestamp with row-pivots along the x-axis of the graph to track our ratios against time. All these attributes are added to the element under the componentDidMount method. Moreover, the Row interface must match the new schema in DataManipulator.ts Finally,  updated generateRow function of the DataManipulator class to properly process the raw server data passed to it so that it can return the processed data which will be rendered by the Graph component’s table.
@@ -12,7 +13,22 @@ Furthermore, this graph can give traders an understanding of how inexpensive or 
 
 Reading from the below graph (next page)generated we can see the negative correlation occurring from 4/11/21 to 7/18/21.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 **Graph: (+/- .04):**
 
 ![](Aspose.Words.4fdf29d2-2aa1-490f-9250-9a20091aa910.001.png)
-
