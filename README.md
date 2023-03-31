@@ -1,4 +1,4 @@
-# JPMC Task 3
+# JPMC Task 3, Explanation of Application, Key Insights
 
 **How Developed Graph:**
 
