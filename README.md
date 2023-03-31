@@ -29,6 +29,6 @@ Reading from the below graph (next page)generated we can see the negative correl
 
 
 
-**Graph: (+/- .04):**
+
 
 ![](Aspose.Words.4fdf29d2-2aa1-490f-9250-9a20091aa910.001.png)
